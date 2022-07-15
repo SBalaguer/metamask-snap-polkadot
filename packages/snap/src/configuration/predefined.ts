@@ -20,5 +20,15 @@ export const westendConfiguration: SnapConfig = {
   },
   wsRpcUrl: "wss://westend-rpc.polkadot.io/",
 };
+export const rococoConfiguration: SnapConfig = {
+  addressPrefix: 42,
+  networkName: "rococo",
+  unit: {
+    decimals: 12,
+    image: "https://svgshare.com/i/j6k.svg",
+    symbol: "ROC",
+  },
+  wsRpcUrl: "wss:/rococo-rpc.polkadot.io",
+}
 
 export const defaultConfiguration: SnapConfig = westendConfiguration;
